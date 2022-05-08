@@ -33,6 +33,7 @@ specifiers:
   vitest: ^0.12.0
   vue: ^3.2.33
   vue-eslint-parser: ^8.3.0
+  vue-global-api: ^0.4.1
   vue-query: ^1.23.0
   vue-router: ^4.0.15
   vue-tsc: ^0.34.11
@@ -43,6 +44,7 @@ dependencies:
   pinia: 2.0.14_typescript@4.6.4+vue@3.2.33
   rxjs: 7.5.5
   vue: 3.2.33
+  vue-global-api: 0.4.1_vue@3.2.33
   vue-query: 1.23.0_vue@3.2.33
   vue-router: 4.0.15_vue@3.2.33
 
@@ -1388,6 +1390,10 @@ packages:
       eslint: 8.15.0
       eslint-plugin-import: 2.26.0_eslint@8.15.0
     dev: true
+
+  /eslint-config-vue-global-api/0.4.1:
+    resolution: {integrity: sha1-9zW4thvZSUgTFgTA8+Squlgkk6U=, tarball: eslint-config-vue-global-api/download/eslint-config-vue-global-api-0.4.1.tgz}
+    dev: false
 
   /eslint-import-resolver-node/0.3.6:
     resolution: {integrity: sha512-0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==}
@@ -3513,6 +3519,16 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-global-api/0.4.1_vue@3.2.33:
+    resolution: {integrity: sha512-283vpYOhVHJCpMkjNVEwZdgaAb+Y93zFaXGAWTI378MLoNuwQydjD/BAy1e81QYEmyA+JbxqcmMZVWcM9rbriw==}
+    dependencies:
+      eslint-config-vue-global-api: 0.4.1
+      vue-demi: 0.12.5_vue@3.2.33
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
 
   /vue-query/1.23.0_vue@3.2.33:
     resolution: {integrity: sha512-KvKnxTOTgC0Ts+aahCBGoDWSqpp52dVEZ+2CS4OzMCahHYf5HTrX5K/O7tsx/g76fTb8/tHyHKrZKeo/rBFK7g==}

@@ -2,7 +2,8 @@
   "extends": [
     "proste/typescript.js",
     "plugin:vue/vue3-recommended",
-    "eslint-config-prettier"
+    "eslint-config-prettier",
+    "vue-global-api"
   ],
   "globals": {
     "Vi": "readonly"
