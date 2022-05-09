@@ -18,7 +18,8 @@ vue 项目的架构模板整理，方便快速开发具体业务。
 12. Stylelint（样式校验）
 13. Prettier（代码格式化）
 14. PostCss（css 转换）
-15. vue-global-api（自动导入 vue 组合式 api）
+15. unplugin-vue-components（自动导入 vue 组件）
+16. unplugin-auto-import (自动导入 API)
 
 ## 预置
 

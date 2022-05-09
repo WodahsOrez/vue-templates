@@ -3,7 +3,7 @@
     "proste/typescript.js",
     "plugin:vue/vue3-recommended",
     "eslint-config-prettier",
-    "vue-global-api"
+    "./.eslintrc-auto-import.json"
   ],
   "globals": {
     "Vi": "readonly"
@@ -14,6 +14,8 @@
     "project": "./tsconfig.json",
     "tsconfigRootDir": ".",
     "warnOnUnsupportedTypeScriptVersion": true,
-    "extraFileExtensions": [".vue"]
+    "extraFileExtensions": [
+      ".vue"
+    ]
   }
 }

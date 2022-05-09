@@ -3,7 +3,6 @@ import App from './App.vue';
 import { router } from '@routes';
 import { VueQueryPlugin, QueryClient } from 'vue-query';
 import { createPinia } from 'pinia';
-import 'vue-global-api'
 
 import '@styles/global.css';
 
